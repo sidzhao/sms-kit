@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sid.SmsKit", "src\Sid.SmsKit\Sid.SmsKit.csproj", "{09455335-59C3-4BF5-9404-572CE820B7F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{975A908B-5D6C-414F-A47E-65BDB470627F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{28A058CC-D91D-49B5-97DD-6C42C053305D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sid.SmsKit.Tests", "test\Sid.SmsKit.Tests\Sid.SmsKit.Tests.csproj", "{64420C98-568D-47D5-8EA3-0022C17B55A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09455335-59C3-4BF5-9404-572CE820B7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09455335-59C3-4BF5-9404-572CE820B7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09455335-59C3-4BF5-9404-572CE820B7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09455335-59C3-4BF5-9404-572CE820B7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64420C98-568D-47D5-8EA3-0022C17B55A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64420C98-568D-47D5-8EA3-0022C17B55A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64420C98-568D-47D5-8EA3-0022C17B55A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64420C98-568D-47D5-8EA3-0022C17B55A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09455335-59C3-4BF5-9404-572CE820B7F9} = {975A908B-5D6C-414F-A47E-65BDB470627F}
+		{64420C98-568D-47D5-8EA3-0022C17B55A0} = {28A058CC-D91D-49B5-97DD-6C42C053305D}
+	EndGlobalSection
+EndGlobal
